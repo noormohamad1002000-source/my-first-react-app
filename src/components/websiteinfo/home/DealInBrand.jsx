@@ -17,9 +17,9 @@ export default function DealInBrand() {
     <div  >
       <div className="ml-50 text-4xl mt-10 mb-10  flex items-center " >
 
-          <FaRegCircleDot className="mr-5" />
+        <FaRegCircleDot className="mr-5" />
         <h2 className="underline underline-offset-8" >Brands We  Deal In</h2>
-        
+
       </div>
       <div className="marquee-wrapper">
         <div className="marquee-track">
