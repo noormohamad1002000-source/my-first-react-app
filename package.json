@@ -1,12 +1,9 @@
 {
-  "homepage": "https://noormohamad1002000-source.github.io/my-first-react-app/",
   "name": "practice-project-1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
