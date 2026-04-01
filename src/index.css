@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.activeColor{
+    color: #a6894b;
+
+    border-bottom: 2px solid #a6894b;
+}
+
+/* Step 1: Container - clips overflow */
+.marquee-wrapper {
+  overflow: hidden;
+  margin: 0 200px;
+}
+
+/* Step 2: Track - holds all logos in a row */
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-right 12s linear infinite;
+}
+
+/* Step 3: Animation - move right by 50% */
+@keyframes scroll-right {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Pause on hover - nice UX trick! */
+.marquee-wrapper:hover .marquee-track {
+  animation-play-state: paused;
+}

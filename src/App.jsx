@@ -1,0 +1,20 @@
+import React from "react";
+import Nav from "./components/Nav";
+import Nav2 from "./components/Nav2";
+import Links from "./components/websiteinfo/Links";
+import Home from "./components/websiteinfo/home/Home";
+
+const App = () => {
+  return (
+    <div>
+
+      <Nav />
+      <Nav2 />
+ <Links/>
+ 
+      
+    </div>
+  );
+};
+
+export default App;
